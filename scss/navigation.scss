@@ -1,0 +1,82 @@
+.navigation-box {
+	padding: 10px 0;
+	position: fixed;
+	left: 50%;
+	margin-left: -40%;
+	z-index: 900;
+
+	& .logo {
+		float: left;
+
+		a {
+			text-decoration: none;
+			color: map-get($text, main);
+			& span {
+				font-size: 70px;
+				transition: color .3s; 
+
+				&:hover {
+					color: map-get($text, second);
+				}
+			}
+		}
+
+	}
+
+	& .navigation {
+		position: absolute;
+		right: 0;
+		top: 50%;
+		margin-top: -8px;
+
+		& .nav-item {
+			margin-left: 50px;
+			text-transform: uppercase;
+			text-decoration: none;
+			letter-spacing: 1px;
+			color: map-get($text, second);
+			position: relative;
+			z-index: 100;
+			transition: color .3s ease-in-out;
+
+			&:before {
+				content:'';
+				display: inline-block;
+				width: 120%;
+				height: 120%;
+				position: absolute;
+				left: -10%;
+				top: -10%;
+				z-index: 50;
+				background-color: map-get($section, main);
+			}
+			&:after {
+				content:'';
+				display: inline-block;
+				width: 0%;
+				height: 120%;
+				position: absolute;
+				left: -10%;
+				top: -10%;
+				z-index: 60;
+				background-color: map-get($section, main);
+				transition: width .4s ease, background 1.5s ease-in-out;
+			}
+
+			&:hover {
+				color: map-get($text, main);
+				&:after {
+					width: 120%;
+					background-color: map-get($section, second);
+					transition: width .4s ease, background .1s ease-in-out;
+				}
+			}
+
+			& .nav-link {
+				position: relative;
+				z-index: 200;
+			}
+		}
+	}
+
+}

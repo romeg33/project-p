@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'big';
+    src: url('../fonts/BIGJOHN.eot');
+    src: url('../fonts/BIGJOHN.eot') format('embedded-opentype'),
+         url('../fonts/BIGJOHN.woff2') format('woff2'),
+         url('../fonts/BIGJOHN.woff') format('woff'),
+         url('../fonts/BIGJOHN.ttf') format('truetype'),
+         url('../fonts/BIGJOHN.svg#BIGJOHN') format('svg');
+}
+@font-face {
+    font-family: 'slim';
+    src: url('../fonts/SlimJoe.eot');
+    src: url('../fonts/SlimJoe.eot') format('embedded-opentype'),
+         url('../fonts/SlimJoe.woff2') format('woff2'),
+         url('../fonts/SlimJoe.woff') format('woff'),
+         url('../fonts/SlimJoe.ttf') format('truetype'),
+         url('../fonts/SlimJoe.svg#SlimJoe') format('svg');
+}

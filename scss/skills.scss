@@ -1,0 +1,93 @@
+.skills {
+	@include gradient(#EB3349 , #F45C43);
+	position: relative;
+	z-index: 500;
+	@include shadow(.75);
+
+	& .heading {
+		padding-top: 80px;
+		text-align: center;
+		font: {
+			family: $slim;
+			size: 60px;
+		}
+		letter-spacing: 2px;
+
+		& span {
+		font-family: $big;
+		}
+	}
+
+	& .skills-wrapper {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -45%);
+
+		& .skills-column {
+			width: 50%;
+			float: left;
+
+			&:nth-child(2n) {
+				float: right;
+			}
+
+			& .skill {
+				width: 80%;
+				float: left;
+
+				&:nth-child(2n) {
+					float: right;
+				}
+
+				& .skill-name {
+					font: {
+						size: 20px;
+					}
+					text-transform: uppercase;
+					letter-spacing: 2px;
+					margin: 30px 0;
+				}
+
+				& .skill-bar {
+					position: relative;
+					width: 100%;
+					height: 40px;
+					background-color: map-get($section, main);
+
+
+					&.one {
+						@include animateskill(10, #fc00ff, #00dbde);
+					}
+					&.two {
+						@include animateskill(20, #fc00ff, #00dbde);
+					}
+					&.three {
+						@include animateskill(30, #fc00ff, #00dbde);
+					}
+					&.four {
+						@include animateskill(40, #fc00ff, #00dbde);
+					}
+					&.five {
+						@include animateskill(50, #fc00ff, #00dbde);
+					}
+					&.six {
+						@include animateskill(60, #fc00ff, #00dbde);
+					}
+					&.seven {
+						@include animateskill(70, #fc00ff, #00dbde);
+					}
+					&.eight {
+						@include animateskill(80, #fc00ff, #00dbde);
+					}
+					&.nine {
+						@include animateskill(90, #fc00ff, #00dbde);
+					}
+					&.ten {
+						@include animateskill(100, #fc00ff, #00dbde);
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,65 @@
+/* @-webkit-keyframes gradientchange {
+		0% {@include gradient(#5f2c82 , #49a09d);}
+		8% {@include gradient(#EC6F66 , #F3A183);}
+		16% {@include gradient(#7474BF , #348AC7);}
+		24% {@include gradient(#DAE2F8 , #D6A4A4);}
+		32% {@include gradient(#DC2424 , #4A569D);}
+		40% {@include gradient(#24C6DC , #514A9D);}
+		48% {@include gradient(#3D7EAA , #FFE47A);}
+		56% {@include gradient(#1CD8D2 , #93EDC7);}
+		64% {@include gradient(#5C258D , #4389A2);}
+		72% {@include gradient(#4776E6 , #8E54E9);}
+		80% {@include gradient(#614385 , #516395);}
+		88% {@include gradient(#EB3349 , #F45C43);}
+		92% {@include gradient(#1D2B64 , #F8CDDA);}
+	}
+@keyframes gradientchange {
+		0% {@include gradient(#5f2c82 , #49a09d);}
+		8% {@include gradient(#EC6F66 , #F3A183);}
+		16% {@include gradient(#7474BF , #348AC7);}
+		24% {@include gradient(#DAE2F8 , #D6A4A4);}
+		32% {@include gradient(#DC2424 , #4A569D);}
+		40% {@include gradient(#24C6DC , #514A9D);}
+		48% {@include gradient(#3D7EAA , #FFE47A);}
+		56% {@include gradient(#1CD8D2 , #93EDC7);}
+		64% {@include gradient(#5C258D , #4389A2);}
+		72% {@include gradient(#4776E6 , #8E54E9);}
+		80% {@include gradient(#614385 , #516395);}
+		88% {@include gradient(#EB3349 , #F45C43);}
+		92% {@include gradient(#1D2B64 , #F8CDDA);}
+	}
+	 */
+.main {
+	position: relative;
+	@include gradient(#5f2c82 , #49a09d);
+/* 	-webkit-animation: gradientchange 80s infinite ease;
+			  animation: gradientchange 80s infinite ease; */
+	@include shadow(.75);
+	z-index: 600;
+
+	& .main-content {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+
+		& .heading {
+			font: {
+				family: $slim;
+				size: 100px;
+			}
+			& span {
+				font-family: $big;
+			}
+		}
+
+		& .sub-heading {
+			font: {
+				size: 50px;
+				weight: 300;
+			}
+			margin: 30px 0;
+		}
+	}
+}

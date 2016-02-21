@@ -1,0 +1,43 @@
+body {
+	font: {
+		family: 'Ubuntu', sans-serif;
+		size: 16px;
+	}
+	color: map-get($text, main);
+	overflow: hidden;
+}
+
+.max-width {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.mid-width {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.min-width {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.clearfix {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.rom-arrow-up {
+	position: absolute;
+	font-size: 50px;
+	right: 50px;
+	top: 50px;
+}
+
+.rom-arrow-down {
+	position: absolute;
+	font-size: 50px;
+	right: 50px;
+	bottom: 50px;
+}
