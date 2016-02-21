@@ -219,7 +219,7 @@ body { font-family: 'Ubuntu', sans-serif; font-size: 16px; color: #1b1919; overf
 
 .skills .skills-wrapper .skills-column .skill .skill-bar.ten:before { content: ''; display: block; width: 98%; height: 80%; position: absolute; z-index: 900; left: 1%; top: 10%; transition: width .3s; background: #fc00ff; /* fallback for old browsers */ background: -webkit-linear-gradient(right, #fc00ff, #00dbde); background: -o-linear-gradient(right, #fc00ff, #00dbde); background: linear-gradient(to left, #fc00ff, #00dbde); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ -webkit-animation: animation100 3s infinite ease; animation: animation100 3s infinite ease; }
 
-.portfolio { position: relative; background: #3D7EAA; /* fallback for old browsers */ background: -webkit-linear-gradient(right, #3D7EAA, #FFE47A); background: -o-linear-gradient(right, #3D7EAA, #FFE47A); background: linear-gradient(to left, #3D7EAA, #FFE47A); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75); -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75); box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75); z-index: 400; }
+.portfolio { position: relative; background: #4776E6; /* fallback for old browsers */ background: -webkit-linear-gradient(right, #4776E6, #8E54E9); background: -o-linear-gradient(right, #4776E6, #8E54E9); background: linear-gradient(to left, #4776E6, #8E54E9); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75); -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75); box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75); z-index: 400; }
 
 .portfolio .heading { padding-top: 80px; text-align: center; font-family: "slim"; font-size: 60px; letter-spacing: 2px; }
 
@@ -257,7 +257,7 @@ body { font-family: 'Ubuntu', sans-serif; font-size: 16px; color: #1b1919; overf
 
 .portfolio .works .work-item .short-info .button .link { text-decoration: none; color: #1b1919; text-transform: uppercase; font-weight: 700; position: relative; z-index: 900; }
 
-.about { position: relative; background: #DC2424; /* fallback for old browsers */ background: -webkit-linear-gradient(right, #DC2424, #4A569D); background: -o-linear-gradient(right, #DC2424, #4A569D); background: linear-gradient(to left, #DC2424, #4A569D); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ z-index: 300; -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75); -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75); box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75); }
+.about { position: relative; background: #134E5E; /* fallback for old browsers */ background: -webkit-linear-gradient(right, #134E5E, #71B280); background: -o-linear-gradient(right, #134E5E, #71B280); background: linear-gradient(to left, #134E5E, #71B280); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ z-index: 300; -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75); -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75); box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75); }
 
 .about .heading { padding-top: 80px; text-align: center; font-family: "slim"; font-size: 60px; letter-spacing: 2px; }
 
@@ -285,7 +285,7 @@ body { font-family: 'Ubuntu', sans-serif; font-size: 16px; color: #1b1919; overf
 
 .about .about-wrapper .text-column .text { font-size: 18px; letter-spacing: .5px; line-height: 1.5; }
 
-.contacts { background: #1CD8D2; /* fallback for old browsers */ background: -webkit-linear-gradient(right, #1CD8D2, #93EDC7); background: -o-linear-gradient(right, #1CD8D2, #93EDC7); background: linear-gradient(to left, #1CD8D2, #93EDC7); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ position: relative; z-index: 200; }
+.contacts { background: #FF8008; /* fallback for old browsers */ background: -webkit-linear-gradient(right, #FF8008, #FFC837); background: -o-linear-gradient(right, #FF8008, #FFC837); background: linear-gradient(to left, #FF8008, #FFC837); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ position: relative; z-index: 200; }
 
 .contacts .heading { padding-top: 80px; text-align: center; font-family: "slim"; font-size: 60px; letter-spacing: 2px; }
 
