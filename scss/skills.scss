@@ -13,6 +13,10 @@
 		}
 		letter-spacing: 2px;
 
+		@media screen and (max-width: 499px) {
+			font-size: 40px;
+		}
+
 		& span {
 		font-family: $big;
 		}
@@ -23,21 +27,47 @@
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -45%);
+		@media screen and (max-width: 767px) {
+			position: relative;
+			top: 0;
+			left: 0;
+			transform: translate(0, 0);
+			padding-bottom: 50px;
+		}
+
 
 		& .skills-column {
 			width: 50%;
 			float: left;
 
+			@media screen and (max-width: 1023px) {
+				float: none;
+				width: 100%;
+			}
+
 			&:nth-child(2n) {
 				float: right;
+
+				@media screen and (max-width: 767px) {
+					float: none;
+				}
 			}
 
 			& .skill {
 				width: 80%;
 				float: left;
 
+				@media screen and (max-width: 1023px) {
+					float: none;
+					width: 90%;
+					margin: 0 auto;
+				}
+
 				&:nth-child(2n) {
 					float: right;
+					@media screen and (max-width: 1023px) {
+						float: none;
+					}
 				}
 
 				& .skill-name {

@@ -13,7 +13,10 @@
 			size: 60px;
 		}
 		letter-spacing: 2px;
-
+		@media screen and (max-width: 499px) {
+			font-size: 40px;
+		}
+		
 		& span {
 		font-family: $big;
 		}
@@ -21,6 +24,9 @@
 
 	& .works {
 		margin-top: 50px;
+		@media screen and (max-width: 849px) {
+			text-align: center;
+		}
 
 		& .work-item {
 			position: relative;
@@ -34,6 +40,17 @@
 			@include shadowportfolio(.75);
 			transition: all .3s;
 
+			@media screen and (max-width: 849px) {
+				width: 80%;
+				text-align: left;
+			}
+			@media screen and (max-width: 499px) {
+				width: 90%;
+			}
+			@media screen and (max-width: 399px) {
+				width: 95%;
+			}
+
 			&:hover {
 				@include shadowportfolio2(.75);
 				& .short-info {
@@ -43,6 +60,9 @@
 
 			&:nth-child(2n) {
 				float: right;
+				@media screen and (max-width: 849px) {
+					float: none;
+				}
 			}
 
 			& .preview {
@@ -107,6 +127,12 @@
 					letter-spacing: 1.5px;
 					font-size: 20px;
 					padding: 15px 0 0 15px;
+					@media screen and (max-width: 499px) {
+						font-size: 17px;
+					}
+					@media screen and (max-width: 399px) {
+						font-size: 14px;
+					}
 				}
 
 				& .button {

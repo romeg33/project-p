@@ -12,7 +12,9 @@
 			size: 60px;
 		}
 		letter-spacing: 2px;
-
+		@media screen and (max-width: 499px) {
+			font-size: 40px;
+		}
 		& span {
 		font-family: $big;
 		}
@@ -25,6 +27,19 @@
 		& .img-column {
 			width: 40%;
 			float: left;
+			@media screen and (max-width: 799px) {
+				width: 50%;
+				float: none;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 20px;
+			}
+			@media screen and (max-width: 599px) {
+				width: 70%;
+			}
+			@media screen and (max-width: 449px) {
+				width: 80%;
+			}
 
 			& .img {
 				position: relative;
@@ -32,6 +47,15 @@
 				height: 500px;
 				overflow: hidden;
 				border: 4px solid map-get($section, main);
+				@media screen and (max-width: 899px) {
+					height: 450px;
+				}
+				@media screen and (max-width: 799px) {
+					height: 400px;
+				}
+				@media screen and (max-width: 449px) {
+					height: 300px;
+				}
 
 				&:hover {
 
@@ -58,6 +82,9 @@
 					transform: translate(-50%, -50%);
 					z-index: 600;
 					transition: top .3s;
+					@media screen and (max-width: 799px) {
+						font-size: 200px;
+					}
 				}
 				&:after {
 					content: '';
@@ -82,6 +109,15 @@
 			width: 55%;
 			float: right;
 			margin-bottom: 50px;
+			@media screen and (max-width: 799px) {
+				width: 85%;
+				float: none;
+				margin-right: auto;
+				margin-left: auto;
+			}
+			@media screen and (max-width: 399px) {
+				width: 90%;
+			}
 
 			& .sub-titles {
 				font: {

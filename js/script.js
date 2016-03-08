@@ -120,6 +120,21 @@ $(document).ready(function() {
 	var windowHeight = $(window).height();
 
 	$('#main').height(windowHeight);
-	$('#skills').height(windowHeight);
 	$('#contacts').height(windowHeight);
+
+	if(windowWidth >= 768) {
+		$('#skills').height(windowHeight);
+	} else {
+		$('#skills').css('height', '100%');
+	}
+	var navigation = $('.navigation');
+	var navigationItem = navigation.find('.nav-item');
+
+	navigation.click(function() {
+		$(this).toggleClass('active');
+	});
+	navigationItem.click(function() {
+		navigation.removeClass('active');
+	})
+
 });

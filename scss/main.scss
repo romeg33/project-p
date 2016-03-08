@@ -49,6 +49,20 @@
 				family: $slim;
 				size: 100px;
 			}
+
+			@media screen and (max-width: 1023px) {
+				font-size: 80px;
+			}
+			@media screen and (max-width: 749px) {
+				font-size: 60px;
+			}
+			@media screen and (max-width: 599px) {
+				font-size: 40px;
+			}
+			@media screen and (max-width: 399px) {
+				font-size: 30px;
+			}
+
 			& span {
 				font-family: $big;
 			}
@@ -60,6 +74,19 @@
 				weight: 300;
 			}
 			margin: 30px 0;
+
+			@media screen and (max-width: 1023px) {
+				font-size: 40px;
+			}
+			@media screen and (max-width: 749px) {
+				font-size: 30px;
+			}
+			@media screen and (max-width: 599px) {
+				font-size: 20px;
+			}
+			@media screen and (max-width: 399px) {
+				font-size: 15px;
+			}
 		}
 	}
 }
