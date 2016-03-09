@@ -79,6 +79,8 @@
 					position: absolute;
 					top: 150%;
 					left: 50%;
+					-webkit-transform: translate(-50%, -50%);
+					-ms-transform: translate(-50%, -50%);
 					transform: translate(-50%, -50%);
 					z-index: 600;
 					transition: top .3s;
