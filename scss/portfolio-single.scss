@@ -1,0 +1,66 @@
+@import 'ico';
+@import 'reset';
+@import 'variables';
+@import 'global';
+@import 'navigation';
+@import 'mixins';
+
+body {
+	@include gradient(#DC2424 , #514A9D);
+}
+
+.portfolio-single {
+	padding: 100px 0 100px 0;
+
+	& .wrapper {
+		box-sizing: border-box;
+		background: white;
+		@include shadowportfolio(.7);
+		padding: 50px 70px;
+
+		& .heading {
+			text-align: center;
+			text-transform: uppercase;
+			font: {
+				size: 25px;
+				weight: 700;
+			}
+			letter-spacing: 1px;
+			margin-bottom: 30px;
+		}
+
+		& .img-wrapper {
+			width: 100%;
+			margin: 0 auto 30px;
+
+			img {
+				width: 100%;
+				border: 5px solid map-get($section, main);
+				@include shadow(.7);
+			}
+
+			&.full-size {
+				width: 100%;
+			}
+
+			&.min-size {
+				width: 50%;
+			}
+		}
+
+		& .sub-heading {
+			text-transform: uppercase;
+			font: {
+				size: 20px;
+				weight: 700;
+			}
+			letter-spacing: 1px;
+			margin: 0 0 30px;
+		}
+
+		& .text-portfolio {
+			margin: 0 0 30px 0;
+			line-height: 1.5;
+		}
+	}
+}

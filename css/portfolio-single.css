@@ -1,0 +1,398 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'rom';
+  src: url("../fonts/rom.eot?o68z8j");
+  src: url("../fonts/rom.eot?o68z8j#iefix") format("embedded-opentype"), url("../fonts/rom.ttf?o68z8j") format("truetype"), url("../fonts/rom.woff?o68z8j") format("woff"), url("../fonts/rom.svg?o68z8j#rom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="rom-"], [class*=" rom-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'rom' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rom-logo:before {
+  content: "";
+}
+
+.rom-arrow-down:before {
+  content: "";
+}
+
+.rom-arrow-up:before {
+  content: "";
+}
+
+.rom-hamburger:before {
+  content: "";
+}
+
+.rom-google:before {
+  content: "";
+}
+
+.rom-facebook:before {
+  content: "";
+}
+
+.rom-instagram:before {
+  content: "";
+}
+
+.rom-vk:before {
+  content: "";
+}
+
+.rom-github:before {
+  content: "";
+}
+
+.rom-wordpress:before {
+  content: "";
+}
+
+.rom-skype:before {
+  content: "";
+}
+
+.rom-codepen:before {
+  content: "";
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  color: #1b1919;
+  overflow-x: hidden;
+}
+
+.max-width {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .max-width {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .max-width {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .max-width {
+    width: 65%;
+  }
+}
+
+.mid-width {
+  width: 960px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .mid-width {
+    width: 96%;
+  }
+}
+
+.min-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rom-arrow-up {
+  position: absolute;
+  font-size: 50px;
+  right: 50px;
+  top: 50px;
+}
+
+@media screen and (max-width: 1023px) {
+  .rom-arrow-up {
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
+  }
+}
+
+.rom-arrow-down {
+  position: absolute;
+  font-size: 50px;
+  right: 50px;
+  bottom: 50px;
+}
+
+@media screen and (max-width: 1023px) {
+  .rom-arrow-down {
+    right: 20px;
+    bottom: 20px;
+    font-size: 20px;
+  }
+}
+
+.navigation-box {
+  padding: 10px 0;
+  position: fixed;
+  left: 50%;
+  margin-left: -40%;
+  z-index: 900;
+}
+
+.navigation-box .logo {
+  float: left;
+}
+
+.navigation-box .logo a {
+  text-decoration: none;
+  color: #1b1919;
+}
+
+.navigation-box .logo a span {
+  font-size: 70px;
+  transition: color .3s;
+}
+
+@media screen and (max-width: 1023px) {
+  .navigation-box .logo a span {
+    font-size: 60px;
+  }
+}
+
+.navigation-box .logo a span:hover {
+  color: white;
+}
+
+.navigation-box .navigation {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -8px;
+}
+
+.navigation-box .navigation:after {
+  position: absolute;
+  top: 0;
+  right: -40%;
+  content: "";
+  font-family: 'rom';
+  font-size: 30px;
+  opacity: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .navigation-box .navigation:after {
+    opacity: 1;
+    cursor: pointer;
+  }
+}
+
+.navigation-box .navigation .nav-item {
+  margin-left: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: white;
+  position: relative;
+  z-index: 100;
+  transition: color .3s ease-in-out;
+}
+
+@media screen and (max-width: 1023px) {
+  .navigation-box .navigation .nav-item {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+}
+
+.navigation-box .navigation .nav-item:before {
+  content: '';
+  display: inline-block;
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  left: -10%;
+  top: -10%;
+  z-index: 50;
+  background-color: #1b1919;
+}
+
+.navigation-box .navigation .nav-item:after {
+  content: '';
+  display: inline-block;
+  width: 0%;
+  height: 120%;
+  position: absolute;
+  left: -10%;
+  top: -10%;
+  z-index: 60;
+  background-color: #1b1919;
+  transition: width .4s ease, background 1.5s ease-in-out;
+}
+
+.navigation-box .navigation .nav-item:hover {
+  color: #1b1919;
+}
+
+.navigation-box .navigation .nav-item:hover:after {
+  width: 120%;
+  background-color: white;
+  transition: width .4s ease, background .1s ease-in-out;
+}
+
+.navigation-box .navigation .nav-item .nav-link {
+  position: relative;
+  z-index: 200;
+}
+
+@media screen and (max-width: 1023px) {
+  .navigation-box .navigation.active .nav-item {
+    height: 100%;
+    padding: 10px;
+    overflow: hidden;
+  }
+}
+
+body {
+  background: #DC2424;
+  /* fallback for old browsers */
+  background: linear-gradient(to left, #DC2424, #514A9D);
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.portfolio-single {
+  padding: 100px 0 100px 0;
+}
+
+.portfolio-single .wrapper {
+  box-sizing: border-box;
+  background: white;
+  box-shadow: 5px 5px 10px 0px rgba(50, 50, 50, 0.7);
+  padding: 50px 70px;
+}
+
+.portfolio-single .wrapper .heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.portfolio-single .wrapper .img-wrapper {
+  width: 100%;
+  margin: 0 auto 30px;
+}
+
+.portfolio-single .wrapper .img-wrapper img {
+  width: 100%;
+  border: 5px solid #1b1919;
+  box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.7);
+}
+
+.portfolio-single .wrapper .img-wrapper.full-size {
+  width: 100%;
+}
+
+.portfolio-single .wrapper .img-wrapper.min-size {
+  width: 50%;
+}
+
+.portfolio-single .wrapper .sub-heading {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0 0 30px;
+}
+
+.portfolio-single .wrapper .text-portfolio {
+  margin: 0 0 30px 0;
+  line-height: 1.5;
+}
