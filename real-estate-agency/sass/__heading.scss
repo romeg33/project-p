@@ -1,0 +1,50 @@
+.heading {
+	background: {
+		image: url(../img/realty-background.jpg);
+		position: center center;
+		attachment: fixed;
+		size: cover;
+		} 
+	color: $primary-color;
+	width: 100%;
+	padding:14rem 0 10rem 0;
+}
+
+.heading p {
+	font-size: $heading-text;
+	font-weight: 700;
+	text-align: center;
+	@include text-shadow;
+}
+
+.heading header h1 em {
+	color: $accent-color;
+	@include text-shadow;
+}
+
+.heading button a {
+	@include link-decoration;
+	color: $accent-color;
+	@include transition;
+	font-weight: 400;
+}
+
+.heading button:hover a {
+	color: $primary-color;
+}
+
+.heading button {
+	@include button-style;
+	@include link-decoration;
+	@include transition;
+}
+
+.heading button:hover {
+	background-color: $accent-color;
+	@include button-style-shadow;
+	border: 2px solid rgba(231, 76, 60,1.0);
+}
+
+.heading button:focus {
+	outline: none;
+}

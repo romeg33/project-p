@@ -1,0 +1,21 @@
+html {
+	width: 100%;
+}
+
+body {
+	font: {
+		size: $body-text;
+		family: $primary-font;
+	}
+	width: 100%;
+}
+
+header h1 {
+	font: {
+		weight: 700;
+		size: $heading-text-big;
+	}
+	padding: 2rem 2rem 4rem 2rem;
+	text-align: center;
+	color: $primary-color;
+}

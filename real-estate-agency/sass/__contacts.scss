@@ -1,0 +1,39 @@
+.contacts {
+	@include section-size;
+	padding:4rem 0 8rem 0;
+	position: relative;
+}
+
+.contacts h1 {
+	color: $secondary-color;
+	padding-bottom: 6rem;
+}
+
+.adress, .phones, .e-mail {
+	padding-left: 10rem;
+	width: 35%;
+	height: 6rem;
+}
+
+.contacts h2 {
+	font: {
+		size: $heading-text;
+		weight: 700;
+	}
+	margin-bottom: 1.5rem;
+}
+
+.contacts p {
+	font-size: $large-text;
+	color: $accent-color;
+}
+
+iframe {
+	position: absolute;
+	top: 14rem;
+	right: 10rem;
+}
+
+.contacts .e-mail p a {
+	color: $accent-color;
+}

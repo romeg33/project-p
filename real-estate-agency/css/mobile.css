@@ -1,0 +1,233 @@
+@media all and (max-device-width: 31.25rem) and (max-width: 31.25rem) {
+  iframe {
+    display: none;
+  }
+}
+
+@media all and (max-device-width: 25rem) and (max-width: 25rem) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+@media all and (max-device-width: 76.56rem) and (max-width: 76.56rem) {
+  iframe {
+    right: 5rem;
+  }
+}
+
+@media all and (max-device-width: 70rem) and (max-width: 70rem) {
+  iframe {
+    right: 5rem;
+    width: 31.25rem;
+  }
+}
+
+@media all and (max-device-width: 64rem) and (max-width: 64rem) {
+  iframe {
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+  }
+  .adress, .phones, .e-mail {
+    display: inline-block;
+    padding-left: 7%;
+    width: 25%;
+    height: 6rem;
+  }
+  .services-all {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .services-all {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .services .services-all .service {
+    padding: 0 0 4rem 0;
+  }
+  .services .services-all .service {
+    display: block;
+    width: 100%;
+  }
+  .services .services-all .service:last-child {
+    padding-bottom: 0;
+  }
+  .realty .cell {
+    height: 38rem;
+    width: 60%;
+  }
+  header h1 {
+    padding: 1rem 0rem 2rem 0rem;
+    font-size: 2.777rem;
+  }
+}
+
+@media all and (max-device-width: 51.88rem) and (max-width: 51.88rem) {
+  .realty .cell {
+    width: 70%;
+    height: 38rem;
+  }
+  .propositions {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .propositions .variant {
+    display: block;
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+  .propositions .variant .wrapper p:first-child {
+    margin-top: 2rem;
+  }
+}
+
+@media all and (max-device-width: 34.38rem) and (max-width: 34.38rem) {
+  .realty .cell {
+    width: 100%;
+    height: 24rem;
+  }
+  .close-window {
+    left: 85%;
+  }
+  table {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media all and (max-device-width: 54.38rem) and (max-width: 54.38rem) {
+  .adress, .phones, .e-mail {
+    display: block;
+    margin: 0 auto;
+    padding-left: 0;
+    width: 15rem;
+    height: 6rem;
+  }
+}
+
+@media all and (max-device-width: 55.63rem) and (max-width: 55.63rem) {
+  .header .logo {
+    left: 3rem;
+  }
+  .menu-header ul {
+    right: 3rem;
+  }
+  footer .logo {
+    left: 3rem;
+  }
+  .menu-footer ul {
+    right: 3rem;
+  }
+}
+
+@media all and (max-device-width: 42.5rem) and (max-width: 42.5rem) {
+  .menu-header ul {
+    display: none;
+    width: 100%;
+    top: 4rem;
+    right: 0;
+    background-color: white;
+  }
+  .menu-header li {
+    display: block;
+    padding: 1rem 2rem 2rem 2rem;
+    text-align: center;
+  }
+  .menu-header li:last-child {
+    padding: 1rem 2rem 2rem 2rem;
+  }
+  .header .bar {
+    display: block;
+  }
+  .menu-footer ul {
+    display: none;
+    width: 100%;
+    top: 4rem;
+    right: 0;
+    background-color: white;
+  }
+  .menu-footer li {
+    display: block;
+    padding: 1rem 2rem 2rem 2rem;
+    text-align: center;
+  }
+  .menu-footer li:last-child {
+    padding: 1rem 2rem 2rem 2rem;
+  }
+  .header .bar {
+    display: block;
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    right: 1rem;
+    top: -.8rem;
+    cursor: pointer;
+  }
+  footer .bar2 {
+    display: block;
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    right: 1rem;
+    top: -.8rem;
+    cursor: pointer;
+  }
+}
+
+@media all and (max-device-width: 39.69rem) and (max-width: 39.69rem) {
+  .heading header h1 {
+    font-size: 1.777rem;
+  }
+}
+
+@media all and (max-device-width: 43.75rem) and (max-width: 43.75rem) {
+  .about .facts {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .about .facts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .facts section {
+    display: block;
+    width: 100%;
+  }
+  .facts section {
+    padding-bottom: 2rem;
+  }
+  .facts section:last-child {
+    padding-bottom: 0;
+  }
+  .facts h2 {
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,29 @@
+.about {
+	@include section-size;
+	background: $secondary-color;
+	padding:4rem 0 8rem 0;
+}
+
+.about .facts {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.facts section {
+	text-align: center;
+	color: $primary-color;
+}
+
+.facts h2 {
+	font-size: $heading-text-big;
+	padding: 1rem 0 2rem 0;
+	color: $accent-color;
+}
+
+.facts p {
+	color: $foreground-color;
+}
