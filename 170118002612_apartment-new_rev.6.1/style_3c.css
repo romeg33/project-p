@@ -1,0 +1,1414 @@
+
+@font-face {
+    font-family: 'FontAwesome';
+  src: url('font-awesome-4.4.0/fonts/fontawesome-webfont.eot?v=4.4.0');
+  src: url('font-awesome-4.4.0/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('./font-awesom/fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'), url('font-awesome/fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'), url('./font-awesome/fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'), url('./font-awesome/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+    
+}
+
+	/*
+	
+    font-family: 'FontAwesome';
+    src: url('font-awesome/fonts/fontawesome-webfont.eot');
+    src: url('lato/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lato/lato-light-webfont.woff2') format('woff2'),
+         url('lato/lato-light-webfont.woff') format('woff'),
+         url('lato/lato-light-webfont.ttf') format('truetype'),
+         url('lato/lato-light-webfont.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*/
+
+
+/**{
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+	background: none;
+}
+
+html{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+/* 	font-family: "latolight", sans-serif; */
+	/*font-family: Arial;
+}*/
+    
+
+/**/
+/* End of Header */
+/**/
+
+.t1_content-box_wrapper{
+	border-top: 1px solid #ccc;
+	width: 100%;
+	margin-top: 26px;
+/* 	background: url(images/main_bg.png) repeat; */
+}
+
+.t1_content-box{
+	position: relative;
+	top:17px;
+	width: 956px;
+	margin: auto;
+	background:#fff;
+	padding-bottom: 30px;
+	
+}
+
+.t1_main_content_box{
+	top: 0;
+	width: 924px;
+	margin: 0 auto;
+}
+
+.t1_overal-review{
+	width: 100%;
+	height: 85px;
+	margin-bottom: 20px;
+}
+
+.t1_table_heading{
+	font-size: 32px;
+	font-weight: 100;
+	color: #515151;
+	text-align: center;
+	line-height: 85px;
+	text-transform: capitalize;
+}
+
+.t1_table{
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 3px;
+	border: none;
+	display: block;
+}
+
+.t1_table a{
+	font-size: inherit;	
+}
+
+.t1_table_overal-review{
+	margin-bottom: 28px;
+}
+
+.t1_table_cell{
+	height: 36px;
+	width: 190px;
+	background:#d8e3f0;
+	font-size: 13px;
+	color: #000;
+	line-height: 16px;
+	padding: 4px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+.t1_table_cell_2{
+	width: 220px;
+}
+
+.t1_table_cell_3{
+	width: 145px;
+}
+
+.t1_table_cell_4{
+	width: 355px;
+}
+
+.t1_table_first-column__blue{
+	background:#2f6bb0;
+	font-size: 16px;
+	line-height: 18px;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.t1_internal-navigation{
+	width: 99%;
+	height: 54px;
+	margin: 0 auto;
+	
+	display: block;
+	
+/*
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -o-flex;
+	display: -ms-flex;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-o-justify-content: space-between;
+	-ms-justify-content: space-between;
+	align-items: center;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-o-align-items: center;
+	-ms-align-items: center;
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-o-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+*/
+}
+
+.t1_internal-navigation_back{
+	display: inline-block;
+	float: left;
+	height: 100%;
+	width: 285px;
+	background:#b2cc50;
+}
+
+.t1_internal-navigation_back:hover{
+	background: #849c2f;
+}
+
+.t1_internal-navigation_back_link{
+	width: 100%;
+	height: 100%;
+}
+
+.t1_internal-navigation_back_text{
+	display: inline-block;
+	width: 100%;
+	font-size: 22px;
+	line-height: 54px;
+	text-align: center;
+	color: #fff;
+}
+
+.t1_internal-navigation_share{
+/*
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -o-flex;
+	display: -ms-flex;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-o-justify-content: space-between;
+	-ms-justify-content: space-between;
+*/
+	height: 42px;
+	width: 466px;
+	padding: 6px;
+	padding-right: 0;
+	background:#f1f1f1;
+	float: left;
+	margin-left: 15px;
+}
+
+.t1_internal-navigation_share_text{
+	display: inline-block;
+	height: 100%;
+	width: 200px;
+	padding-top: -20px;
+	float: left;
+}
+
+.t1_internal-navigation_share_text_text{
+	display: inline-block;
+	height: 100%;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #515151;
+	line-height: 21px;
+	position: relative;
+	left: 10px;
+	margin-right: 15px;
+}
+
+.t1_internal-navigation_share_text_text span{
+	font-size: 16px;
+	font-weight: 100;
+	text-transform: uppercase;
+	color: #515151;
+}
+
+.t1_internal-navigation_share_text_arrow{
+	content: "";
+	display: inline-block;
+	float: left;
+	height: 0;
+	width: 0;
+	margin-left: 5px;
+	background:transparent right center;
+	border-top: 17px solid transparent;
+	border-right: 17px solid transparent;
+	border-bottom: 17px solid transparent;
+	border-left: 17px solid #515151;
+	margin-top: 5px;
+}
+
+.t1_internal-navigation_share_social{
+/*
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -o-flex;
+	display: -ms-flex;
+	justify-content: space-around;
+	-webkit-justify-content: space-around;
+	-moz-justify-content: space-around;
+	-o-justify-content: space-around;
+	-ms-justify-content: space-around;
+*/
+	height: 42px;
+	width: 224px;
+	float: left;
+}
+
+.t1_internal-navigation_share_item{
+	height: 42px;
+	width: 42px;
+	float: left;
+	margin-left: 10px;
+}
+
+.t1_internal-navigation_share_item:hover{
+	box-shadow: inset 0 0 5px white;
+	-webkit-box-shadow: inset 0 0 5px white;
+	-o-box-shadow: inset 0 0 5px white;
+	-moz-box-shadow: inset 0 0 5px white;
+	-ms-box-shadow: inset 0 0 5px white;
+}
+
+.t1_internal-navigation_share_item_facebook{
+	background:#FFF url(images/facebook.png) 0 0 no-repeat;
+}
+
+.t1_internal-navigation_share_item_twitter{
+	background:#FFF url(images/twitter.png) 0 0 no-repeat;
+}
+
+.t1_internal-navigation_share_item_linkedin{
+	background:#FFF url(images/linkedin.png) 0 0 no-repeat;
+}
+
+.t1_internal-navigation_share_item_share{
+	background:#FFF url(images/share.png) 0 0 no-repeat;
+}
+
+.t1_internal-navigation_share_item_link{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.t1_internal-navigation_do{
+/*
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -o-flex;
+	display: -ms-flex;
+	justify-content: space-around;
+	-webkit-justify-content: space-around;
+	-moz-justify-content: space-around;
+	-o-justify-content: space-around;
+	-ms-justify-content: space-around;	
+*/
+float: left;
+	height: 100%;
+	width: 118px;
+	margin-left: 10px;
+}
+
+.t1_internal-navigation_do_item{
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+	width:49px;
+	height: 54px;
+	background:gray;
+}
+
+.t1_internal-navigation_do_print{
+	background:#FFF url(images/print.png) 0 0 no-repeat;
+}
+
+.t1_internal-navigation_do_mail{
+	background:#FFF url(images/mail.png) 0 0 no-repeat;
+}
+
+.t1_internal-navigation_do_item_link{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.t1_student-review{
+	width: 99%;
+	min-height: 54px;
+	margin: 0 auto;
+	background:gray;
+}
+
+.t1_student-review_heading{
+	margin-top: 55px;
+}
+
+.t1_table_student_overview_cell_2{
+	width: 220px;
+}
+
+.t1_table_student_overview_cell_3{
+	width: 145px;
+}
+
+.t1_table_student_overview_cell_4{
+	width: 355px;
+}
+
+.t1_table_heading_tr{
+	background:#d2e199;
+	min-height: 50px;
+	text-transform: capitalize;
+	font-weight: 100;
+	font-size: 20px;
+}
+
+.t1_table_studend-review{
+	margin-bottom: 20px;
+}
+
+.t1_table_student_details_cell_2{
+	width: 310px;
+}
+
+.t1_table_student_details_cell_3{
+	width: 170px;
+	text-align: center;
+	line-height: 15px;
+}
+
+.t1_table_student_details_cell_4{
+	width: 260px;
+	text-align: center;
+}
+
+.t1_table_student_overview_cell_landlord-respond{
+	background:#f1f1f1;
+	font-size: 16px;
+	line-height: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.t1_cell_landlord-respond_link{
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.t1_student-review_details{
+	margin-bottom: 28px;
+}
+
+.t1_table_student_details_cell_1{
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: 600;
+}
+
+.t1_table_student_details_head_cell{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 22px;
+	text-align: center;
+	background:#2f6bb0;
+}
+
+.t1_table_studend_details>tr:nth-child(2n+1) {
+   background-color: #f1f1f1;
+}
+
+.t1_table_student_details__different>td{
+	background:#f1f1f1;
+}
+
+.t1_table_student_details_cell_deposit{
+	text-transform: capitalize;
+	background:#f1f1f1;
+}
+
+/**//**/
+/* Footer */
+/**//**/
+
+
+
+
+label{
+	font-size: 12px;
+	margin-left: 5px;
+}
+.t1_radio_wrapper{
+	display: inline-block;
+	width: 99px;
+	
+/* 	width: 32%; */
+/* 	height: 100%; */
+}
+
+label {
+	width: 100%;
+	line-height: 100%;
+}
+
+input[type=radio] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+    
+input[type=radio] ~ label:before{
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f10c";
+    letter-spacing: 10px;
+    font-size: 1.2em;
+    color: #000;
+    width: 1.1em;
+}
+
+input[type=radio]:checked ~ label:before{
+/*     content: "\f192"; */
+    content: "\f00c";
+    font-size: 1.2em;
+/*     color: darkgreen; */
+    letter-spacing: 5px;
+}
+
+input[type=radio]:focus ~ label:before,
+input[type=radio]:focus ~ label,
+{                
+    color: green;
+}
+
+.t1_form_select_wrapper{
+/* 	width: 250px; */
+	width: 95%;
+	height: 25px;
+	overflow: hidden;
+	background:#fff;
+	border: 1px solid gray;
+	border-radius: 3px;
+	background:#FFF url(select-sprite.png) 258px -35px no-repeat;
+}
+
+
+/*
+.t1_form_select_wrapper:after{
+	content: "";
+	display: inline-block;
+	height: 30px;
+	width: 1px;
+	position: relative;
+	border-left: 1px solid gray;
+/* 	left: -30px; */
+/*
+	top:-29px;
+	left: 117px;
+	z-index: 1;
+	font-size: 15px;
+}
+*/
+
+
+.t1_table_select{
+	width: 107%;
+	height: 25px;
+	border: none;
+	border: 0;
+	outline: none;
+	outline: 0;
+	background:transparent;
+	background:rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+	margin: auto;
+	padding:2px;
+	padding-left: 5px;
+	
+}
+
+.t1_table_select{
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.t1_table_select option{
+	font-size: 13px;
+	line-height: 15px;
+}
+
+
+/**/
+/* Task 3. Header before content box
+/**/
+
+.t1_content-box{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.t1_content_box_header_before{
+	width: 100%;
+	height: 34px;
+/* 	background:#fff url(./images/header_button_main_bg.png) 0 0 repeat-x; */
+}
+
+.t1_header_button_before{
+	background:transparent url(../../images/header_button_main_bg.png) 0 0 repeat-x;
+	border-right: 1px solid #efefef;
+}
+
+.t1_header_button_before{
+	display: inline-block;
+	height: 34px;
+	overflow-y: hidden;
+}
+
+.t1_header_button_before:last-child{
+	border-right: none;
+}
+
+.t1_header_button-1{
+	width: 211px;
+	padding-left: 5px;
+	border-top-left-radius: 5px;
+}
+
+.t1_header_button-2{
+	width: 128px;
+	background:#FFF url(../../images/color_button_2.png) 0 0 repeat-x;
+  
+}
+
+.t1_header_button-3{
+	min-width: 100px;
+	background:#FFF url(../../images/color_button_3.png) 0 0 repeat-x;
+}
+
+.t1_header_button-4{
+	width: 128px;
+	background:#FFF url(../../images/color_button_4.png) 0 0 repeat-x;
+}
+
+.t1_header_button-5{
+	width: 80px;
+    float:right;
+}
+
+.t1_header_button-6{
+	width: 110px;
+      float:right;
+}
+
+.t1_header_button-7{
+	width: 80px;
+	border-top-right-radius: 5px;
+      float:right;
+}
+
+.t1_header_button_text{
+	font-size: 11px;
+	line-height: 12px;
+	line-height: 34px;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+}
+
+.t1_header_button_text:hover{
+	text-decoration: underline;
+}
+
+.t1_header_button_text_first{
+	font-size: 11px;
+	display: inline;
+}
+
+.t1_header_button_text_first:hover{
+	text-decoration: none;
+}
+
+.t1_header_button-1 .t1_header_button_text{
+	text-align: left;
+}
+
+.t1_landlord_section_go-back_link, .t1_landlord_section_go-back_link:active, .t1_landlord_section_go-back_link:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+.t1_landlord_section_go-back_link:hover{
+	opacity: .8;
+}
+
+.t1_landlord_section_go-back{
+	display: inline-block;
+	width: 300px;
+	height: 20px;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+.t1_landlord_section_go-back i{
+	font-size: 16px;
+	margin-right: 7px;
+}
+
+
+/**/
+/* Task 3. Tables
+/**/
+
+.t1_main_content_header_table-before{
+	font-size: 22px;
+	font-weight: 100;
+	color: #000;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.t1_main_content_table-before{
+	height: 30px;
+	width: 100%;
+	position: relative;
+/* 	background:blue; */
+}
+
+.t1_main_content_table-before_showing{
+	width: 135px;
+	float: left;
+	border: 2px solid #dfdfdf;
+	border-bottom: none;
+	height: 28px;
+}
+
+.t1_main_content_table-before_showing_text{
+	font-size: 13px;
+	margin-left: 5px;
+	line-height: 28px;
+	color: #227abf;
+}
+
+.t1_main_content_table-before_note{
+	height: 30px;
+/* 	width: auto; */
+	width: 450px;
+	display: inline-block;
+	float: right;
+    padding-right:51px;
+}
+
+
+.t1_main_content_table-before_note_text{
+	font-size: 12px;
+	color: #414141;
+	font-style: italic;
+	line-height: 30px;
+	display: inline-block;
+	align-content: center;
+	vertical-align: baseline;
+}
+
+
+
+.t1_main_content_table-before_note_icon{
+	margin-left: 7px;
+	position: relative;
+	top: 3px;
+}
+
+.t1_action_table{
+	width: 95%;
+	border-collapse: collapse;
+	border: 2px solid #dddddd;
+}
+
+.t1_action_table_cell{
+	font-size: 12px;
+	text-align: left;
+	vertical-align: middle;
+	height: 28px;
+	border: 1px solid #dddddd;
+	padding: 5px;
+	padding-left: 10px;
+}
+
+
+.t1_action_table_body{
+	box-shadow: inset 1px 0px 5px 2px #e8e8e8;
+}
+
+.t1_action_table_cell-head{
+	font-weight: 600;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 53%, #e1e1e1 74%, #f6f6f6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(53%,#f1f1f1), color-stop(74%,#e1e1e1), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f1f1f1 53%,#e1e1e1 74%,#f6f6f6 100%); /* 	Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#f1f1f1 53%,#e1e1e1 74%,#f6f6f6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#f1f1f1 53%,#e1e1e1 74%,#f6f6f6 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%,#f1f1f1 53%,#e1e1e1 74%,#f6f6f6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+copy
+}
+
+.t1_action_table_cell_action_green{
+	font-weight: 600;
+	color: #1e8a01;
+	text-align: center;
+}
+
+.t1_action_table_cell_action_red{
+	font-weight: 600;
+	color: #ff0000;
+	text-align: center;
+}
+
+.t1_action_table_cell_action{
+/* 	background:#FFF url(./images/action_cell_bg.png) 0 0 repeat-x; */
+
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(39%,#f1f1f1), color-stop(69%,#e1e1e1), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 0%,#f1f1f1 39%,#e1e1e1 69%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 0%,#f1f1f1 39%,#e1e1e1 69%,#f6f6f6 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ffffff 0%,#f1f1f1 39%,#e1e1e1 69%,#f6f6f6 100%); /* IE10+ */
+background: linear-gradient(to bottom, #ffffff 0%,#f1f1f1 39%,#e1e1e1 69%,#f6f6f6 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6 */
+	text-align: center;
+}
+
+.t1_action_table_cell_link{
+	display: inline-block;
+}
+
+.t1_action_table_cell_link:hover{
+	opacity: .7;
+}
+
+.t1_action_table_cell_link_delete{
+	width: 12px;
+	height: 16px;
+	background:#FFF url(../../images/delete_icon.png) 0 0 no-repeat;
+}
+
+.t1_action_table_cell_link_description{
+	width: 22px;
+	height: 16px;
+	background:#FFF url(../../images/description_icon.png) 0 0 no-repeat;
+}
+
+
+.t1_action_table_link{
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.t1_action_table_cell_link{
+	font-size: 11px;
+	color: #000;
+}
+
+.t1_action_table_cell_link i{
+	font-size: 18px;
+	margin-right: 3px;
+	color: #000;
+}
+
+
+.t1_action_table_cell_link_edit_text{
+	font-size: 11px;
+	color: #000;
+}
+
+.t1_action_table_cell_link_edit_text i{
+	font-size: 18px;
+	margin-right: 3px;
+	color: #000;
+}
+
+.t1_table_strong{
+	font-size: inherit;
+	font-weight: 600;
+}
+
+
+/**/
+/* Tables cells width */
+/**/
+
+
+.t1_action_table_cell-1{
+	width: 40px;
+}
+
+.t1_action_table_cell-2{
+	width: 160px;
+}
+
+.t1_action_table_cell-3{
+	width: 157px;
+}
+
+.t1_action_table_cell-4{
+	width: 145px;
+}
+
+.t1_action_table_cell-5{
+	
+}
+
+.t1_action_table_cell-6{
+	width: 65px;
+}
+
+.t1_action_table_cell-7{
+	width: 65px;
+}
+
+/* Landlord section Review Responds */
+
+.t1_action_table_review-respond .t1_action_table_cell-1{
+	width: 70px;
+}
+
+.t1_action_table_review-respond .t1_action_table_cell-2{
+	width: 160px;
+}
+
+.t1_action_table_review-respond .t1_action_table_cell-3{
+	width: 320px;
+}
+
+.t1_action_table_review-respond .t1_action_table_cell-4{
+	width: 130px;
+}
+
+.t1_action_table_review-respond .t1_action_table_cell-5{
+	width: 90px;
+	text-align: center;
+}
+
+.t1_action_table_review-respond .t1_action_table_cell-6{
+	width: 120px;
+}
+
+
+/* Landlord section Contact and follow up */
+
+.t1_action_table_contact-follow-up .t1_action_table_cell-1{
+	width: 100px;
+}
+
+.t1_action_table_contact-follow-up .t1_action_table_cell-2{
+	width: 130px;
+}
+
+.t1_action_table_contact-follow-up .t1_action_table_cell-3{
+	width: 420px;
+}
+
+.t1_action_table_contact-follow-up .t1_action_table_cell-4{
+	width: 130px;
+	text-align: center;
+}
+
+.t1_action_table_contact-follow-up .t1_action_table_cell-5{
+	width: 120px;
+	text-align: center;
+}
+
+/* Landlord section Small Accomodation info*/
+
+.t1_action_table_small_accomodation{
+	width: 600px;
+}
+
+.t1_action_table_small_accomodation .t1_action_table_cell-1{
+	width: 300px;
+	text-align: left;
+}
+
+.t1_action_table_small_accomodation .t1_action_table_cell-2{
+	width: 300px;
+}
+
+.t1_action_table_small_accomodation i{
+	margin-left: 20px;
+	position: relative;
+	top: 2px;
+}
+
+.t1_action_table_small_accomodation .t1_action_table_cell_link{
+	color: blue;
+	text-decoration: underline;
+}
+
+/* Landlord section Contact Results*/
+
+
+.t1_action_table_contact_result .t1_action_table_cell-1{
+	width: 120px;
+	text-align: left;
+}
+
+.t1_action_table_contact_result .t1_action_table_cell-2{
+	width: 150px;
+}
+
+.t1_action_table_contact_result .t1_action_table_cell-3{
+	width: 160px;
+}
+
+.t1_action_table_contact_result .t1_action_table_cell-4{
+	width: 250px;
+}
+
+.t1_action_table_contact_result .t1_action_table_cell-5{
+	width: 310px;
+	text-align: center;
+}
+
+.t1_action_table_contact_result .t1_action_table_cell-6{
+	width: 200px;
+	text-align: center;
+}
+
+.t1_action_table_contact_result .t1_action_table_cell-4 i{
+/* 	position: relative; */
+/* 	top: 10px; */
+	margin-right: 5px;
+}
+
+.t1_action_table_contact_result .t1_action_table_cell-6 i{
+	position: relative;
+	top: 2px;
+}
+
+/* Student section Reviews left */
+
+.t1_action_table_reviews-left .t1_action_table_cell-1{
+	width: 70px;
+}
+
+.t1_action_table_reviews-left .t1_action_table_cell-2{
+	width: 160px;
+}
+
+.t1_action_table_reviews-left .t1_action_table_cell-3{
+	width: 320px;
+}
+
+.t1_action_table_reviews-left .t1_action_table_cell-4{
+	width: 130px;
+}
+
+.t1_action_table_reviews-left .t1_action_table_cell-5{
+	width: 90px;
+	text-align: center;
+}
+
+.t1_action_table_reviews-left .t1_action_table_cell-6{
+	width: 120px;
+}
+
+
+/* Student section Properties Saved */
+
+.t1_action_table_properties-saved .t1_action_table_cell-1{
+	width: 70px;
+}
+
+.t1_action_table_properties-saved .t1_action_table_cell-2{
+	width: 260px;
+}
+
+.t1_action_table_properties-saved .t1_action_table_cell-3{
+	width: 100px;
+}
+
+.t1_action_table_properties-saved .t1_action_table_cell-4{
+	width: 100px;
+}
+
+.t1_action_table_properties-saved .t1_action_table_cell-4 i{
+	position: relative;
+	top: 2px;
+}
+
+/* Student section Small Contacting Landlords*/
+
+.t1_action_table_small_contacting-landlords{
+	width: 600px;
+}
+
+.t1_action_table_small_contacting-landlords .t1_action_table_cell-1{
+	width: 300px;
+	text-align: left;
+}
+
+.t1_action_table_small_contacting-landlords .t1_action_table_cell-2{
+	width: 300px;
+}
+
+.t1_action_table_small_contacting-landlords i{
+	margin-left: 10px;
+	position: relative;
+	top: 2px;
+}
+
+.t1_action_table_small_contacting-landlords .t1_action_table_cell_link{
+	color: blue;
+	text-decoration: underline;
+}
+
+
+
+/* Student section Contact Results*/
+
+
+.t1_action_table_contacting-landlords .t1_action_table_cell-head{
+	font-size: 11px;
+}
+
+.t1_action_table_contacting-landlords .t1_action_table_cell-1{
+	width: 100px;
+	text-align: left;
+}
+
+.t1_action_table_contacting-landlords .t1_action_table_cell-2{
+	width: 250px;
+}
+
+.t1_action_table_contacting-landlords .t1_action_table_cell-3{
+	width: 120px;
+}
+
+.t1_action_table_contacting-landlords .t1_action_table_cell-4{
+	width: 180px;
+	text-align: center;
+}
+
+.t1_action_table_contacting-landlords .t1_action_table_cell-5{
+	width: 120px;
+	text-align: center;
+}
+
+.t1_action_table_contacting-landlords .t1_action_table_cell-6{
+	width: 250px;
+	text-align: center;
+}
+
+.t1_action_table_contacting-landlords .t1_action_table_cell-7{
+	width: 130px;
+	text-align: center;
+}
+
+
+.t1_action_table_contacting-landlords .t1_action_table_cell-7 i{
+	position: relative;
+	top: 2px;
+}
+
+
+
+.t1_action_table_dashboard-big{
+	margin-top: 30px;
+}
+
+
+
+.t1_action_table_contact_result .t1_form_select_wrapper{
+	background: #FFF url("select-sprite.png") no-repeat scroll 165px -35px;
+}
+
+.t1_action_table_contacting-landlords .t1_form_select_wrapper{
+	background: #FFF url("select-sprite.png") no-repeat scroll 122px -35px;
+}
+
+.t1_action_table_contacting-landlords .t1_table_select{
+	width: 115%;
+}
+
+
+@media screen and (max-width:992px){
+	
+/*
+	.t1_radio_wrapper{
+		display: block;
+		text-align: left;
+	}
+*/
+	
+	.t1_header_box{
+		width: 766px;
+	}
+	
+	.t1_content-box{
+		width: 766px;
+	}
+	
+	.t1_footer{
+		width: 766px;
+	}
+	
+	.t1_footer_nav_item{
+		font-size: 10px;
+		line-height: 12px;
+	}
+	
+	.t1_footer_nav_item_link{
+		font-size: 10px;
+		line-height: 12px;
+	}
+	
+	.t1_table_student_overview_cell_landlord-respond{
+		font-size: 16px;
+		line-height: 18px;
+	}
+	
+	.t1_cell_landlord-respond_link{
+		font-size: 18px;
+		font-weight: 600;
+	}
+	
+	.t1_internal-navigation_back{
+		width: 218px;
+	}
+	
+	.t1_internal-navigation_share{
+		width: 382px;
+	}
+	
+.t1_internal-navigation_share{
+	width: 395px;
+	padding: 0;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	margin-left: 0;
+}
+
+.t1_internal-navigation_share_social{
+		width: 200px;
+	}
+
+.t1_internal-navigation_share_text_arrow{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	.t1_internal-navigation_share_text{
+	width: 160px;
+}
+
+.t1_internal-navigation_do{
+	width: 140px;
+	margin-left: 2px;
+	}
+	
+	.t1_internal-navigation_do_item{
+		margin-right: 2px;
+	}
+	
+	.t1_internal-navigation_share_item{
+		margin-left: 5px;
+	}
+	
+	.t1_internal-navigation_back_text{
+		font-size: 20px;
+		line-height: 54px;
+	}
+	
+	.t1_internal-navigation_share_text_text{
+		font-size: 12px;
+		line-height: 14px;
+	}
+	
+	.wrap{
+		width: 766px;
+	}
+	#logo{
+		width: 350px;
+	}
+	#menu{
+		width: 766px;
+	}
+	
+	#content{
+		width: 766px;
+	}
+	
+	.content-wrap{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	
+	.t1_form_select_wrapper{
+		background:#FFF url(select-sprite.png) 200px -35px no-repeat;
+	}
+	
+	
+	.t1_form_select_wrapper:after{
+		left: 87px;
+
+	}
+	
+	.t1_radio_wrapper{
+		width: auto;
+		margin-right: 7px;
+	}
+	
+	.t1_action_table_contact_result .t1_form_select_wrapper{
+		background: #FFF url("select-sprite.png") no-repeat scroll 122px -35px;
+	}
+	
+	.t1_action_table_contact_result .t1_table_select {
+    	width: 110%;
+    }
+    
+    .t1_action_table_contacting-landlords .t1_form_select_wrapper{
+		background: #FFF url("select-sprite.png") no-repeat scroll 85px -35px;
+		
+	}
+	
+	.t1_action_table_contacting-landlords .t1_table_select{
+		font-size: 11px;
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	
+	.t1_header_box{
+		width: 700px;
+	}
+	
+	.t1_content-box{
+		width: 700px;
+	}
+	.t1_footer{
+		width: 700px;
+	}
+	
+	.t1_cell_landlord-respond_link{
+		font-size: 18px;
+		font-weight: 600;
+	}
+	
+	.t1_internal-navigation_back{
+		width: 180px;
+	
+	}
+	
+	.t1_internal-navigation_share{
+		width: 380px;
+	}
+	
+	.t1_internal-navigation_share_text_text{
+		font-size: 10px;
+		line-height: 13px;
+	}
+	
+	.t1_internal-navigation_share_text{
+	width: 140px;
+}
+
+.t1_internal-navigation_share_item{
+		margin-left: 4px;
+	}
+	
+	.t1_internal-navigation_do{
+	width: 120px;
+	margin-left: 2px;
+	}
+	
+	.t1_internal-navigation_do_item{
+		margin-right: 0;
+		margin-left: 4px;
+	}
+	
+	.t1_internal-navigation_back_text{
+	font-size: 16px;
+	line-height: 54px;
+}
+
+.t1_internal-navigation_share_social{
+		width: 190px;
+	}
+	
+	.wrap{
+		width: 700px;
+	}
+	#logo{
+		width: 284px;
+	}
+	#menu{
+		width: 700px;
+	}
+	
+	#content{
+		width: 700px;
+	}
+	
+	.content-wrap{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	
+	.t1_form_select_wrapper{
+		background:#FFF url(select-sprite.png) 175px -35px no-repeat;
+	}
+	
+	
+	.t1_form_select_wrapper:after{
+		left: 75px;
+
+	}
+	
+	.t1_radio_wrapper{
+		width: auto;
+		margin-right: 0;
+	}
+	
+	.t1_action_table_contact_result .t1_form_select_wrapper{
+	background: #FFF url("select-sprite.png") no-repeat scroll 105px -35px;
+	}
+	
+	.t1_action_table_contact_result .t1_table_select {
+    width: 115%;
+    }
+    
+    .t1_action_table_contacting-landlords .t1_form_select_wrapper{
+		background: #FFF url("select-sprite.png") no-repeat scroll 70px -35px;
+	}
+	
+	.t1_action_table_contacting-landlords .t1_table_select{
+		font-size: 10px;
+		padding-left: 0px;
+	}
+	
+}
